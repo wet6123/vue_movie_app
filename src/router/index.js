@@ -22,18 +22,22 @@ const routes = [
     children: [
       {
         path: "create",
+        name: "MovieCreate",
         component: MovieCreate,
       },
       {
         path: "detail",
+        name: "MovieDetail",
         component: MovieDetail,
       },
       {
         path: "list",
+        name: "MovieList",
         component: MovieList,
       },
       {
         path: "search",
+        name: "MovieSearch",
         component: MovieSearch,
       },
     ],
