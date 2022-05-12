@@ -1,3 +1,3 @@
 <template>
-  <div class="movie">this is movie list</div>
+  <div class="list">this is movie list</div>
 </template>

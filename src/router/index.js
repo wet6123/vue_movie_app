@@ -5,7 +5,7 @@ import Movie from "../views/Movie.vue";
 import MovieCreate from "../components/movie/MovieCreate.vue";
 import MovieDetail from "../components/movie/MovieDetail.vue";
 import MovieList from "../components/movie/MovieList.vue";
-import MovieSearch from "../components/movie/MovieSearch.vue";
+// import MovieSearch from "../components/movie/MovieSearch.vue";
 
 Vue.use(VueRouter);
 
@@ -34,11 +34,6 @@ const routes = [
         path: "list",
         name: "MovieList",
         component: MovieList,
-      },
-      {
-        path: "search",
-        name: "MovieSearch",
-        component: MovieSearch,
       },
     ],
   },
